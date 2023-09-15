@@ -130,6 +130,10 @@
          <framework src="CoreGraphics.framework" />
          <framework src="AVFoundation.framework" />
 
+         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>The app needs access to camera in order to create activities and scan barcodes</string>
+        </config-file>
+
      </platform>
 
     <!-- browser -->
